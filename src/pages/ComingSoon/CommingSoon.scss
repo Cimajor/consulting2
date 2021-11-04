@@ -1,0 +1,43 @@
+@use '../../themes/colors.scss'as *;
+
+.coming-soon {
+    min-height: 100%;
+    background-image: url('../../Images/pexels-scott-webb-1048033.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coming-soon__title {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 17px;
+    padding-top: 5rem;
+}
+
+.coming-soon__title p {
+    margin: 15px;
+    color: #e6b332;
+}
+
+.coming-soon__description p {
+    color: #fdfcdc;
+    font-weight: 800;
+    font-size: 20px;
+    max-width: 40rem;
+}
+
+.coming-soon__form{
+    width: 100%;
+}
+
+.coming-soon__description span {
+    text-decoration: underline;
+    color: #e9c46a;
+    cursor: pointer;
+}
+
+.coming-soon__description span:hover {
+    color: #e2ae29;
+}

@@ -1,0 +1,9 @@
+@use './themes/variables.scss' as *;
+@use 'themes/colors';
+
+.App {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+}
